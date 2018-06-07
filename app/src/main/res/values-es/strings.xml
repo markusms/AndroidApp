@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MarkusApp</string>
+    <string name="hello">Hola, esta es la primera actividad</string>
+    <string name="text2">Estamos aprendiendo cómo programar para Android</string>
+    <string name="textButton">Actividad 2</string>
+    <string name="textButton3">Actividad 3</string>
+    <string name="hello2">Segunda actividad</string>
+    <string name="hello3">Esta es la tercera actividad</string>
+    <string name="button2">Hacia adelante</string>
+    <string name="hello4">Actividad 4</string>
+    <string name="emptyList">La lista está vacía</string>
+    <string name="quit">¿Dejar?</string>
+    <string name="back">¿Regresa?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="activity">Nueva actividad comenzó</string>
+    <string name="name">Nombre:</string>
+    <string name="surname">Apellido:</string>
+    <string name="address">Dirección:</string>
+    <string name="city">Ciudad:</string>
+    <string name="country">País:</string>
+    <string name="option1">Tostada 1</string>
+    <string name="option2">Tostada 2</string>
+    <string name="optionMain">Casa</string>
+    <string name="toastShort">Prueba de tostado corto</string>
+    <string name="toastLong">Prueba de tostada larga</string>
+    <string name="boop">boop</string>
+
+</resources>

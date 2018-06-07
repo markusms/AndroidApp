@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/hello3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        style="@style/bigFont"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The first edit text here"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        style="@style/hugeFont"/>
+
+    <Button
+        android:id="@+id/NewButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/button"
+        android:layout_gravity="bottom"
+        android:layout_weight="3"
+        android:text="@string/button2" />
+
+</LinearLayout>
