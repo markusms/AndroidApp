@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewSql"
+        android:text="SQL test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        style="@style/bigFont"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id"/>
+    <EditText
+        android:id="@+id/EditTextId"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"/>
+    <EditText
+        android:id="@+id/EditTextValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/SqlButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/button"
+        android:layout_gravity="bottom"
+        android:layout_weight="3"
+        android:text="Insert" />
+
+    <Button
+        android:id="@+id/SqlButtonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/button"
+        android:layout_gravity="bottom"
+        android:layout_weight="3"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/SqlButtonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/button"
+        android:layout_gravity="bottom"
+        android:layout_weight="3"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/SqlButtonQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/button"
+        android:layout_gravity="bottom"
+        android:layout_weight="3"
+        android:text="Query" />
+
+</LinearLayout>

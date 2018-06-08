@@ -27,6 +27,7 @@
         <activity android:name=".Activityex3"></activity>
         <activity android:name=".List"></activity>
         <activity android:name=".Activityex10"></activity>
+        <activity android:name=".ActivitySql"></activity>
     </application>
 
 </manifest>

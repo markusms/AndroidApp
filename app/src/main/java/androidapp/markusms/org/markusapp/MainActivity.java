@@ -88,6 +88,17 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("MainActivity", "startActivity()");
             }
         });
+
+        Button sqlButton = (Button) findViewById(R.id.sqlActButton);
+        sqlButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(getBaseContext(), ActivitySql.class);
+                startActivity(intent);
+                Log.d("MainActivity", "startActivity()");
+            }
+        });
     }
     public void onBackPressed() {
         DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {

@@ -74,5 +74,10 @@
         android:layout_height="wrap_content"
         android:text="Go to ex10"
         style="@style/pink"/>
+    <Button android:id="@+id/sqlActButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SQL"
+        style="@style/pink"/>
 
 </LinearLayout>
